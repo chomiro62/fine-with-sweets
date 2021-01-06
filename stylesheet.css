@@ -1,0 +1,69 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+/*-------------ここからスタート---------------------*/
+
+/*ALL style
+--------------------------------------------------------*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 14px;
+  color: #555;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+/*--------------------------------------------
+<!--__________________-->
+<div class="fukidasi02">
+  <div class="chatting02">
+    <div class="says02">
+      <p>混ぜるだけで簡単でしょ？</p>
+    </div>
+  </div>
+  <div class="faceicon02">
+    <img src="../img/profile-image.png" width="90">
+    <p class="fukidasi-name02">つくるこ</p>
+  </div>
+</div>
+<!--__________________-->
+------------------------------------------------*/
+/*-----------------------------------------------
+<!--吹き出し__________________-->
+<div class="fukidasi">
+  <div class="faceicon">
+    <img src="../img/girl-image.png" width="90">
+    <p class="fukidasi-name">ぷりんちゃん</p>
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>料理が苦手な私でも作れちゃった・・・！</p>
+    </div>
+  </div>
+</div>
+<!--吹き出し終わり__________________-->
+----------------------------------------------------*/

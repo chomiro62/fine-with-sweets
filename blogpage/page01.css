@@ -1,0 +1,133 @@
+@import "../module/header.css";
+@import "../module/main.css";
+@import "../module/side-content.css";
+@import "../module/footer.css";
+/*-----------*/
+@import "../module/blog-top.css";
+@import "../module/blog-main.css";
+@import "../module/blog-foot.css";
+/*------------------------------------------------
+    >> page01.css
+-------------------------------------------------*/
+.blog-main {
+  width: 92%;
+  height: 100%;
+  padding: 0 30px;
+}
+.blog-text {
+  font-size: 16px;
+  line-height: 29px;
+}
+/*-------------------------------------*/
+.blog-table--1 {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.title-back--b {
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+  background-color: #663300;
+}
+.title--b {
+  color: #fff;
+  text-align: center;
+}
+.table-inner {
+  font-size: 16px;
+  padding: 30px 40px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #663300;
+}
+.table-inner p {
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 2px dashed #dcdcdc;
+}
+/*----------------------------------------------*/
+.fukidasi02 {
+  width: 100%;
+  overflow: hidden;
+}
+.faceicon02 {
+  padding: 10px;
+  float: right;
+}
+.fukidasi-name02 {
+  font-size: 10px;
+  padding-left: 10px;
+  color: #777;
+}
+.chatting02 {
+  width: 500px;
+  float: left;
+}
+.says02 {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  left: 290px;
+  margin: 15px 20px 20px 20px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  background: #D1F8C2;
+  border: solid 3px #D1F8C2;
+  box-sizing: border-box;
+}
+.says02::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 12px solid #D1F8C2;
+  z-index: 2;
+}
+.says02::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #D1F8C2;
+  z-index: 1;
+}
+/*----------------------------------------------*/
+.fukidasi {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.faceicon {
+  padding: 10px;
+  float: left;
+}
+.fukidasi-name {
+  font-size: 10px;
+  padding-left: 10px;
+  color: #777;
+}
+.chatting {
+  width: 500px;
+  float: left;
+}
+.says {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 15px 20px 20px 20px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  background: #efefef;
+}
+.says::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #efefef;
+}

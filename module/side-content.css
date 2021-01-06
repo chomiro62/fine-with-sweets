@@ -1,0 +1,332 @@
+
+
+/*------------------------------------------------
+    >> side-content.css
+-------------------------------------------------*/
+
+.side-content {
+  width: 350px;
+  height: 100%;
+  margin-top: 30px;
+  float: right;
+}
+/*side-content1
+---------------------------------------------------*/
+.side--1 {
+  width: 100%;
+  height: 470px;
+  background-color: rgba(51,51,51,0.8);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.title {
+  width: 100%;
+  color: #fff;
+  line-height: 50px;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #333;
+}
+.side--1-inner {
+    padding: 20px;
+}
+.side-image {
+  border: 1px solid #000;
+}
+.side--1-inner p {
+  color: #fff;
+  margin-top: 20px;
+}
+.recipi-link {
+  width: 260px;
+  margin: 0 auto;
+  border: 1px solid #ff84c1;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 30px;
+}
+.recipi-link a {
+  color: #fff;
+  background-color: #ff84c1;
+  border-radius: 25px;
+  line-height: 40px;
+  padding: 9px 55px;
+  transition: all 0.3s;
+}
+.recipi-link a:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+/*side-content2
+-----------------------------------------------------------*/
+.side--2 {
+  width: 100%;
+  height: 520px;
+  margin-top: 30px;
+  background-color: rgba(51,51,51,0.8);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.profile-image {
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-image img {
+  transition: all 0.5s;
+}
+.profile-image img:hover{
+  transform:scale(1.1,1.1);
+  transition: 0.5s all;
+}
+.name {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.walker {
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.profile-text {
+  width: 100%;
+  margin: 0 auto;
+}
+.profile-text p {
+  color: #fff;
+  padding: 35px 35px 0 35px;
+}
+.profile-link {
+  width: 120px;
+  margin: 0 auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+.profile-link a {
+  color: #000;
+  background-color: #dcdcdc;
+  border-radius: 25px;
+  line-height: 20px;
+  padding: 6px 28px 5px 28px;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+.profile-link a:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+/*---------------------------------*/
+.sns-link--side {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  background-color: #663300;
+  box-shadow: 1px 3px 3px rgba(66,33,0,0.7) inset;
+}
+.sns-link--side p {
+  color: #fff;
+  padding-top: 20px;
+}
+.sns-link--side a {
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  transition: all 0.3s;
+  background-color: rgba(66,33,0,0.4);
+}
+.sns-link--side a:hover {
+  color: #fff;
+  padding: 6px 11px;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.4);
+}
+.twitter {
+  margin-right: 10px;
+  margin-left: 85px;
+}
+.facebook {
+  margin-right: 10px;
+}
+.instagram {
+  margin-right: 10px;
+}
+/*side-content3
+-----------------------------------------------------------*/
+.side--3 {
+  width: 100%;
+  height: 475px;
+  margin-top: 30px;
+  padding: 35px 30px;
+  background-color: rgba(51,51,51,0.8);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.side-title {
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 1px 1px 3px #666;
+  border-bottom: 2px solid #fff;
+}
+.inner--3 {
+  margin-top: 20px;
+}
+.inner--3 img {
+  margin-right: 10px;
+  float: left;
+}
+.inner--3 a {
+  width: 175px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 5px;
+  float: left;
+  transition: all 0.3s;
+}
+.inner--3 a:hover {
+  color: #ff84c1;
+  transition: all 0.3s;
+}
+/*side-content4
+-----------------------------------------------------------*/
+.side--4 {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  padding: 35px 30px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(151, 217, 225, 0.8) 100%),url("../img/background-side.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+select {
+  width: 100%;
+  height: 40px;
+  color: #777;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  outline: 0;
+  /*---------------------*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /*---------------------*/
+  background-image: url("../img/under-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 15px 13px;
+  background-position: right 10px center;
+}
+/*side-content5
+-----------------------------------------------------------*/
+.side--5 {
+  width: 100%;
+  height: 170px;
+  margin-top: 30px;
+  padding: 35px 30px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  background-color: rgba(51,51,51,0.8);
+}
+.side-tag {
+  padding-top: 10px;
+  line-height: 28px;
+}
+.side-tag a {
+  color: #fff;
+  font-size: 13px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  transition: all 0.3s;
+  background-color: #333;
+}
+.fa-tag {
+  font-size: 11px;
+}
+.side-tag a:hover {
+  color: #333;
+  font-weight: bold;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+/*side-content6
+-----------------------------------------------------------*/
+.side--6 {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  padding: 35px 30px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(151, 217, 225, 0.8) 100%),url("../img/back-side.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#form3{
+  position:relative;
+}
+#sbox3{
+  width: 100%;
+  height: 35px;
+  border-radius: 25px;
+  padding-left: 10px;
+  border:none;
+  background: #fff;
+  outline: 0;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#sbtn3{
+  height: 35px;
+  position: absolute;
+  left: 260px;
+  top: 0;
+  background: none;
+  color: #777;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.slabel{
+  background: #fff;
+  font-size: 18px;
+  color: 555;
+  border-radius: 2px 2px 0 0;
+  padding-left: 1%;
+}
+/*side-content7
+-----------------------------------------------------------*/
+.side--7 {
+  width: 100%;
+  height: 170px;
+  margin-top: 30px;
+  padding: 35px 30px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  background-color: rgba(51,51,51,0.8);
+}

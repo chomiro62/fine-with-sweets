@@ -1,0 +1,80 @@
+@import "module/header.css";
+@import "module/main.css";
+@import "module/side-content.css";
+@import "module/footer.css";
+/*------------------------------------------------
+    >> home.css
+-------------------------------------------------*/
+.main-inner {
+  width: 370px;
+  height: 400px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  transition: all .3s;
+  box-shadow: 3px 3px 6px #dcdcdc;
+}
+.main-inner:hover {
+  box-shadow: 4px 4px 15px #c0c0c0;
+  transform: translateY(-5px);
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.main-image {
+  width: 370px;
+  border-radius: 10px 10px 0 0;
+}
+.category {
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #d1ffff;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.main-text {
+  color: #333;
+  font-size: 18px;
+  padding: 20px;
+}
+.date {
+  color: #888;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 15px;
+}
+/*----------------------------------------------*/
+.move-page {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.one {
+  border-radius: 50%;
+  padding: 10px 16px;
+  margin-right: 5px;
+}
+.two {
+  border-radius: 50%;
+  padding: 8px 13px;
+  border: 1px solid #ccc;
+}
+.active {
+  color: #fff;
+  background-color: #663300;
+  box-shadow: 1px 1px 2px #ccc;
+}
+.stop {
+  color: #333;
+  box-shadow: 1px 1px 2px #ccc;
+}
+/*----------------------------------------------*/
+#main01, #main02, #main03, #main04, #main05, #main06, #main07, #main08, #main09, #main10, #main11, #main12 {
+  position: relative;
+}

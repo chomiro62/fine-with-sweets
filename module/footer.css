@@ -1,0 +1,161 @@
+
+
+/*------------------------------------------------
+    >> footer.css
+-------------------------------------------------*/
+
+footer {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(51,51,51,0.8);
+}
+.footer-content {
+  padding-top: 40px;
+}
+/*----------------------*/
+.footer--1 {
+  width: 325px;
+  height: 370px;
+  margin-right: 45px;
+  text-align: center;
+  float: left;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.footer-text {
+  color: #fff;
+  text-align: left;
+  line-height: 25px;
+}
+.footer-link {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #663300;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 30px;
+}
+.footer-link a {
+  color: #fff;
+  background-color: #663300;
+  border-radius: 25px;
+  line-height: 40px;
+  padding: 9px 12px;
+  transition: all 0.3s;
+}
+.footer-link a:hover {
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+/*----------------------*/
+.footer--2 {
+  width: 145px;
+  height: 190px;
+  margin-right: 45px;
+  float: left;
+}
+.footer-title {
+  color: #fff;
+  border-left: 3px solid #d1ffff;
+}
+.title-inner--f {
+  margin-left: 8px;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-list a {
+  color: #fff;
+  line-height: 30px;
+  transition: all 0.3s;
+}
+.footer-list a:hover {
+  margin-left: 8px;
+  transition: all 0.5s;
+}
+/*----------------------*/
+.footer--3 {
+  width: 145px;
+  height: 190px;
+  margin-right: 20px;
+  float: left;
+}
+/*----------------------*/
+.footer--4 {
+  width: 400px;
+  height: 340px;
+  float: right;
+}
+.footer04-inner {
+  position: relative;
+  margin-top: 20px;
+}
+.footer04-inner img {
+  float: left;
+}
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  padding: 3px 8px;
+  background-color: #d1ffff;
+}
+.popular-text {
+  width: 230px;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 10px;
+  float: left;
+}
+/*----------------------*/
+.footer--5 {
+  width: 325px;
+  height: 150px;
+  margin-top: 40px;
+}
+.footer-tag {
+  padding-top: 20px;
+  line-height: 28px;
+}
+.footer-tag a {
+  color: #fff;
+  font-size: 13px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.5);
+}
+.footer-tag a:hover {
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.3s;
+}
+/*--------------------*/
+.copyright {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #fff;
+  text-align: center;
+  background-color: rgba(51,51,51,0.8);
+}
+.copyright p {
+  color: #fff;
+  line-height: 50px;
+}
+/*--------------------------*/
+.for-top {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  z-index: 100;
+}
+.for-top img {
+  padding: 8px 10px 11px 10px;
+  border-radius: 50%;
+  background-size: auto;
+  background-color: rgba(51,51,51,1);
+}
